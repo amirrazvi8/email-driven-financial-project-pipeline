@@ -5,10 +5,9 @@ from googleapiclient.discovery import build
 from googleapiclient.http import MediaIoBaseDownload
 
 
+SERVICE_ACCOUNT_FILE = "C:\\Users\\amirr\\OneDrive\\Desktop\\financial-Project\\drive-bridge-489107-d0f675931363.json"
 SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
-
-SERVICE_ACCOUNT_FILE = "key-file-path"
-FOLDER_ID = "foder-id-key"
+FOLDER_ID = "163Ah4rVvoMul1vXVaxMALikLIOHw8kho"
 
 
 credentials = service_account.Credentials.from_service_account_file(
@@ -110,3 +109,17 @@ else:
 
 
 combined_df
+
+
+#run this script in power BI
+
+
+#import sys
+#import os
+
+#sys.path.append(r"C:\Users\amirr\OneDrive\Desktop\financial-Project\scripts")
+
+#from drive_loader import combined_df
+
+#combined_df
+
